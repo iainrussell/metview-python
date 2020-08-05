@@ -83,3 +83,6 @@ gallery/*.pdf
 gallery/*.txt
 gallery/*.csv
 gallery/*.png
+gallery/*.tar
+gallery/*.tar.gz
+gallery/*.gz
