@@ -37,6 +37,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+docs/auto_examples
+docs/gen_modules
+docs/make.bat
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -58,3 +61,25 @@ docs/_build/
 .pytest_cache
 tests/*.idx
 
+*~
+.cproject
+.project
+*.sublime-project
+*.sublime-workspace
+._mv_*
+.gitignore.orig
+.idea
+.vscode
+
+# gallery
+gallery/*.grib
+gallery/*.grb
+gallery/*.bufr
+gallery/*.gpt
+gallery/*.geo
+gallery/*.nc
+gallery/*.odb
+gallery/*.pdf
+gallery/*.txt
+gallery/*.csv
+gallery/*.png
