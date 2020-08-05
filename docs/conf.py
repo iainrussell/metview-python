@@ -32,7 +32,7 @@ author = ""
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx_rtd_theme", "sphinx_gallery.gen_gallery", "sphinx_gallery.load_style", 
+extensions = ["sphinx_rtd_theme",  "sphinx_gallery.load_style", 
                 "nbsphinx"]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -68,15 +68,15 @@ html_logo = "images/metview.png"
 
 # -- Options for sphinx_gallery -------------------------------------------------
 
-sphinx_gallery_conf = {
-    "examples_dirs": "../gallery",  # path to your example scripts
-    "gallery_dirs": "auto_examples",  # path to where to save gallery generated output
-    "filename_pattern": "/*.py",
-    #"ignore_pattern": "[seaIce_].",
-    "image_scrapers": (PNGScraper()),
-     # directory where function/class granular galleries are stored
-    'backreferences_dir': 'gen_modules/backreferences',
+# sphinx_gallery_conf = {
+#     "examples_dirs": "../gallery",  # path to your example scripts
+#     "gallery_dirs": "auto_examples",  # path to where to save gallery generated output
+#     "filename_pattern": "/*.py",
+#     #"ignore_pattern": "[seaIce_].",
+#     "image_scrapers": (PNGScraper()),
+#      # directory where function/class granular galleries are stored
+#     'backreferences_dir': 'gen_modules/backreferences',
 
-    # Modules for which function/class level galleries are created.
-    #'doc_module': ('metview')
-}
+#     # Modules for which function/class level galleries are created.
+#     #'doc_module': ('metview')
+# }
