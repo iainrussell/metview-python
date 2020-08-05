@@ -14,7 +14,6 @@
 import os
 import sys
 
-import pkg_resources
 import sphinx_rtd_theme
 import sphinx_gallery
 
@@ -34,7 +33,7 @@ author = ""
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ["sphinx_rtd_theme", "sphinx_gallery.gen_gallery", "sphinx_gallery.load_style", 
-                "nbsphinx", "nbsphinx_link"]
+                "nbsphinx"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
