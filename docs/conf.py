@@ -70,5 +70,5 @@ sphinx_gallery_conf = {
     'backreferences_dir': 'gen_modules/backreferences',
 
     # Modules for which function/class level galleries are created.
-    'doc_module': ('metview')
+    #'doc_module': ('metview')
 }
