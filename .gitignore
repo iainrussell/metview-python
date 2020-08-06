@@ -39,6 +39,7 @@ coverage.xml
 docs/_build/
 docs/gen_modules
 docs/make.bat
+docs/auto_examples/*.zip
 
 # Jupyter Notebook
 .ipynb_checkpoints
